@@ -1,0 +1,82 @@
+/* line 1, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 5, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+body {
+  font-family: "Muli", sans-serif;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* line 12, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+body > * {
+  padding: 0 16px; }
+
+/* line 23, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+a, a:visited {
+  color: #0084BF; }
+
+/*========================
+        Header
+=========================*/
+/* line 30, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.header-nav {
+  text-align: right;
+  font-size: 1.1em; }
+
+/* line 35, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.header-navItem {
+  display: inline-block;
+  list-style: none;
+  margin-left: 4px; }
+
+/* line 41, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.header-navLink {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  color: #777777; }
+
+/* line 47, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.header-navLink:hover {
+  color: #000; }
+
+/*======================
+        Intro
+=======================*/
+/* line 54, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.intro-heading {
+  text-align: center; }
+
+/*======================
+        Projects
+======================*/
+/* line 61, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.project-heading {
+  text-align: center; }
+
+/* line 65, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.project-image {
+  max-width: 100%;
+  margin-bottom: 8px; }
+
+/* line 70, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.project-infoContainer {
+  margin-bottom: 32px; }
+
+/* line 74, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.project-technology {
+  margin-right: 8px;
+  padding: 4px 4px;
+  color: #FFF;
+  outline: thin solid; }
+
+/* line 81, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.project-technology--ruby {
+  background-color: #CC342D; }
+
+/* line 85, C:/Users/ME/Documents/web_projects/minimalist_portfolio/css/styles.scss */
+.project-technology--javascript {
+  background-color: #F7DF1E; }
+
+/*# sourceMappingURL=styles.css.map */
